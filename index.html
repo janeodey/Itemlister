@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Item Lister</title>
+</head>
+<body>
+    
+    <header id="header">
+        <div class="containers">
+            <h2 class="header-title" id="header-title">Item Lister</h2>
+
+        </div>
+        <div class="filter" id="filter">
+            <input type="search" placeholder="search item..." id="filterItem">
+        </div>
+    </header>
+
+    <div class="section body">
+        <div class="additems">
+            <p>Add Items</p>
+            <form class="inputbox" id="addForm">
+                <input type="text" name="items" id="itemsInput">
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <div class="list-items">
+                <h3>Items</h3>
+                <ul id="itemsUl">
+                    <li class="list-group-item">Items 1 <div>
+                        <button class="btnEdit" >Edit</button><button class="btnlist" >X</button>
+                    </div> </li>
+                    <li class="list-group-item">items2 <div>
+                        <button class="btnEdit" >Edit</button><button class="btnlist" >X</button>
+                    </div></li>
+                    <li class="list-group-item">items3 <div>
+                        <button class="btnEdit" >Edit</button><button class="btnlist" >X</button>
+                    </div></li>
+                    <li class="list-group-item">Items 4 <div>
+                        <button class="btnEdit" >Edit</button><button class="btnlist" >X</button>
+                    </div></li>
+                </ul>
+            </div>
+            <button id="btn">Click Here</button>
+        </div>
+
+        
+    </div>
+
+
+
+    <script src="./list-item.js"></script>
+</body>
+</html>

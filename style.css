@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: green;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#filterItem{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#filterItem:focus{
+    border: none;
+    outline: none;
+}
+header .containers{
+    text-align: center;
+}
+header h2{
+    color: #fff;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.section > div{
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 90%
+}
+ul{
+    list-style-type: none;
+    border: 1px solid #ddd;
+    width: 100%;
+
+}
+ul li{
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+    width: 100%;
+}
+input[type="submit"]{
+    background-color: #100e0e;
+    padding: 6px 16px;
+    color: #ccc;
+    font-size: .8rem;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+}
+input[type="text"], input[type="text"]:hover{
+    border: 2px solid #ccc;
+    padding: 6px;
+    border-radius: 7px;
+}
+.inputbox{
+    margin: 12px 0;
+}
+#nums{
+    padding: 6px;
+    margin: 2px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 5rem;
+}
+
+
+#btn{
+    background-color: #000;
+    color: #fff;
+    padding: 12px 16px;
+    width: 100%;
+    margin-top: 3%;
+    border-radius: 5px;
+    /* cursor: pointer; */
+    border: none;
+    font-weight: bold;
+}
+#box{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    margin-top: 5px;
+}
+
+/* delete buttons */
+.btnlist{
+    background-color: #ff0000;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 10%;
+    /* float: right; */
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+ #itemsUl li{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+ }
